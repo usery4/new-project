@@ -1,7 +1,4 @@
 
-cached-property==1.5.2
-
-charset-normalizer==2.0.4
 
 
 Django==3.2.6
@@ -19,11 +16,7 @@ docker-compose==1.29.2
 dockerpty==0.4.1
 docopt==0.6.2
 gunicorn==20.1.0
-idna==3.2
-importlib-metadata==4.6.3
-jsonschema==3.2.0
-oauthlib==3.1.1
-paramiko==2.7.2
+
 postgres==3.0.0
 psycopg2==2.9.1
 
@@ -31,9 +24,3 @@ psycopg2==2.9.1
 requests==2.26.0
 requests-oauthlib==1.3.0
 six==1.16.0
-sqlparse==0.4.1
-texttable==1.6.4
-typing-extensions==3.10.0.0
-urllib3==1.26.6
-websocket-client==0.59.0
-zipp==3.5.0
