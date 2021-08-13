@@ -9,6 +9,7 @@ RUN pip install djangorestframework
 RUN pip install django-filter
 RUN pip install dj_database_url
 RUN pip install django-admin-interface
+RUN pip install heroku-postgresql
 RUN apk add --no-cache jpeg-dev zlib-dev
 RUN apk add --no-cache --virtual .build-deps build-base linux-headers \
     && pip install Pillow
