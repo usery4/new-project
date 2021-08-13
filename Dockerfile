@@ -7,6 +7,7 @@ RUN pip install dj-database-url
 RUN pip install django
 RUN pip install djangorestframework
 RUN pip install django-filter
+RUN pip install dj_database_url
 RUN pip install django-admin-interface
 RUN apk add --no-cache jpeg-dev zlib-dev
 RUN apk add --no-cache --virtual .build-deps build-base linux-headers \
